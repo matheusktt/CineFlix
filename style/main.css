@@ -14,6 +14,7 @@
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color:white;
 }
 
 header .container{
@@ -40,4 +41,24 @@ header nav a{
 /* altera a cor do link quando estiver selecionado */
 header nav a:hover{
     color: #fff;
+}
+
+.filme-principal{
+    font-size: 15px;
+    /* contraste da imagem com */
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/capa-homem-aranha.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
